@@ -1,0 +1,16 @@
+.header-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.header a {
+  text-decoration: none;
+  color: #15302c;
+  cursor: pointer;
+  margin: 0 20px;
+}

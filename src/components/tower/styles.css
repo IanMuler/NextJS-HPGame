@@ -1,0 +1,106 @@
+/* src/components/tower/styles.css */
+.tower-wallpaper {
+  width: 100%;
+  height: 100%;
+  background: url("/images/Intro-wallpaper.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.towerimg {
+  width: 600px;
+}
+
+/* 13 levels tower */
+.level {
+  object-position: 0px -800px;
+  animation-duration: 2s;
+  animation-name: fade;
+}
+
+.level1 {
+  object-position: 0px -647px;
+  animation-name: fade, traslatedown1;
+  animation-duration: 2s, 3s;
+}
+
+.level2 {
+  object-position: 0px -492px;
+  animation-name: fade, traslatedown2;
+  animation-duration: 2s, 3s;
+}
+
+.level3 {
+  object-position: 0px -338px;
+  animation-name: fade, traslatedown3;
+  animation-duration: 2s, 3s;
+}
+
+.level4 {
+  object-position: 0px -185px;
+  animation-name: fade, traslatedown4;
+  animation-duration: 2s, 3s;
+}
+
+.level5 {
+  object-position: 0px -29px;
+  animation-name: fade, traslatedown5;
+  animation-duration: 2s, 3s;
+}
+
+.level6 {
+  object-position: 0px 120px;
+  animation-name: fade, traslatedown6;
+  animation-duration: 2s, 3s;
+}
+
+.level7 {
+  object-position: 0px 274px;
+  animation-name: fade, traslatedown7;
+  animation-duration: 2s, 3s;
+}
+
+.level8 {
+  object-position: 0px 427px;
+  animation-name: fade, traslatedown8;
+  animation-duration: 2s, 3s;
+}
+
+.level9 {
+  object-position: 0px 583px;
+  animation-name: fade, traslatedown9;
+  animation-duration: 2s, 3s;
+}
+
+.level10 {
+  object-position: 0px 736px;
+  animation-name: fade, traslatedown10;
+  animation-duration: 2s, 3s;
+}
+
+.level11 {
+  object-position: 0px 892px;
+  animation-name: fade, traslatedown11;
+  animation-duration: 2s, 3s;
+}
+
+.level12 {
+  object-position: 0px 1046px;
+  animation-name: fade, traslatedown12;
+  animation-duration: 2s, 3s;
+}
+
+.towerpj {
+  position: absolute;
+  bottom: 115px;
+  left: 270px;
+  width: 85px;
+  height: 100px;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+.traslateright {
+  animation-name: fade, traslaterightpj;
+  animation-duration: 2s, 2s;
+}
